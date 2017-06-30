@@ -7,8 +7,8 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     <spring:beans>
         <spring:import resource="classpath:maven-project.xml"/>
     </spring:beans>
-    <munit:test name="new-test-suite-mavenFlowTest" description="Test">
+    <munit:test name="test-suite-mavenFlowTest" description="Test">
         <flow-ref name="mavenFlow" doc:name="Flow-ref to mavenFlow"/>
-        <munit:assert-on-equals message="This is not what i expected " expectedValue="#['Hello Maven']" actualValue="#[payload]" doc:name="Assert Equals"/>
+        <munit:assert-on-equals message="This is not what i expected " expectedValue="#['Hello Bhim']" actualValue="#[payload]" doc:name="Assert Equals"/>
     </munit:test>
 </mule>
