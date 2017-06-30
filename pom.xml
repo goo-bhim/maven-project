@@ -64,8 +64,8 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.3</muleVersion>
-					<username>yourUsername</username>
-					<password>yourPassword</password>
+					<username>maven</username>
+					<password>Maventest1</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
 					<environment>Production</environment>
